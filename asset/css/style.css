@@ -1,0 +1,922 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+}
+
+body{
+    background-color: #EDF2F2;
+}
+
+img {
+    max-width: 100%;
+}
+
+ .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+header, section{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+header, section, footer{
+    overflow: hidden;
+}
+
+header{
+    padding-top: 24px;
+    /* padding-bottom: 28px; */
+    background-color: #fff;
+}
+
+header .header-first-div{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #848E97;
+}
+
+header .header-first-div .header-contact-info{
+    display: flex;
+}
+
+.header-first-div .header-contact-info img{
+    margin-right: 9px;
+}
+
+.header-first-div .header-contact-info p{
+    margin-bottom: 0;
+    margin-right: 22px;
+}
+
+header .header-first-div .header-media-icons{
+    display: flex;
+    align-items: center;
+}
+
+.header-media-icons input#search-input{
+    font-size: 12px;
+    font-weight: bold;
+    color: #848E97;
+    background-color: #F1F8FF;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    min-width: 260px; 
+    height: 36px;
+}
+
+.header-media-icons button#search-button{
+    color:#515E6A;
+    background-color: #DEF0F9;
+    border-radius: 0 4px 4px 0;
+    border: none;
+}
+
+.header-media-icons .social-media-div img{
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+
+.header-second-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-second-div .logo-div h1{
+    font-size: 30px;
+    font-weight: regular;
+    color: #F56526;
+    margin: 0;
+    display: inline-block;
+}
+
+.header-second-div .links-div ul{
+    list-style-type: none;
+    margin:0;
+} 
+
+.header-second-div .links-div ul li{
+    display: inline-block;
+}
+
+.header-second-div .links-div ul li a{
+    display: inline-block;
+    color: #515E6A;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.header-second-div .links-div ul li:hover a{
+    color: #F56526;
+}
+
+.header-second-div .links-div ul li button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #F56526;
+    color: #fff;
+    background: #F56526;
+    padding: 13px 20px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.header-second-div .links-div ul li button:hover{
+    border: 2px solid #F56526;
+    background-color: transparent;
+    color: #F56526;
+}
+
+.section-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #323A40;
+    margin: 0;
+}
+
+.first-section .section-first-div{
+    background-color: #F56526;
+    color: #fff;
+    padding: 18px 60px 18px 60px;
+}
+
+.first-section .section-first-div h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-banner-section, .destination-section, .sale-list-section, .service-section, .car-rent-section, .more-car-section, .brand-section, .banner-section, .more-recent-articles{
+    padding-top: 20px;
+}
+
+
+.form-banner-section form{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.form-banner-section .form-group .input-group{
+    margin-bottom: 20px !important;
+}
+
+.form-banner-section input[type="text"], .form-banner-section input[type="number"], select{
+    font-size: 12px;
+    font-weight: bold;
+    color: #848E97;
+    background-color: #F1F8FF;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    width: 82%;
+}
+
+.form-banner-section button.btn-outline-secondary{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #DEF0F9;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    color: #848E97;
+    width: 90px;
+}
+
+.form-banner-section button[type="submit"]{
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: #F25D1C;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 11px 0;
+}
+
+.slider-section-image{
+    position: relative
+}
+
+.slider-section-image .owl-dots{
+    position: absolute;
+    /* width: 100%; */
+    bottom: 10px;
+    right: 10px;
+}
+
+.service-banner-column{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.service-banner-column .service-banner-content img,
+.destination-section .destination-section-content img{
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.service-banner-column .service-banner-content h2{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #515E6A;
+}
+
+.service-banner-column .service-banner-content p,
+.destination-section .destination-section-content p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    background-color: #000;
+    opacity: 40%;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #F25D1C;
+    margin: 5px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 20px;
+    background-color: #cecece;
+    outline: none;
+}
+
+.slider-column-image.owl-carousel .owl-item img{
+    height: 360px;
+}
+
+.car-sell-section .car-sell-content{
+    background-image: url('../img/car-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    padding-top: 44px;
+    padding-bottom: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-sell-section .car-sell-content p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 19px;
+}
+
+.car-sell-section .car-sell-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.car-sell-section .car-sell-content .contact-button-div button{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 12px 28px;
+}
+
+.sale-list-section .available-car-list .car-item{
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.available-car-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.available-car-list .car-item:first-child, .available-car-list .car-item:nth-child(6){
+    margin-left: 0;
+}
+
+.available-car-list .car-item:last-child, .available-car-list .car-item:nth-child(5){
+    margin-right: 0;
+}
+
+.available-car-list .car-item{
+    margin: 9px;
+}
+
+.available-car-list .car-item p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 11px;
+    color: #323A40;
+}
+
+.available-car-list .car-item img{
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+}
+
+.available-car-list .car-item .car-details{
+    padding: 15px;
+}
+
+.available-car-list .car-item .car-details .price-div p,
+.available-car-list .car-item .car-details .mileage-div p{
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #6F7981;
+    margin-bottom: 6px;
+}
+
+.available-car-list .car-item .car-details .price-div h2,
+.available-car-list .car-item .car-details .mileage-div h2{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #515E6A;
+    margin-bottom: 12px;
+}
+
+.available-car-list .car-item .car-details .price-div h3,
+.available-car-list .car-item .car-details .mileage-div h3{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #6F7981;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56px;
+    margin: 0;
+}
+
+.available-car-list .car-item .time-div p{
+    color: #6F7981;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.car-slider-section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.car-slider-items .car-item{
+    max-width: 245px;
+    width: 100%;
+    border: 1px solid #cecece;
+}
+
+.car-slider-items{
+    position: relative;
+} 
+
+.car-slider-items .slick-prev{
+    right: 0 !important;
+    left: unset !important;
+}
+
+.car-slider-items .slick-next:before{
+    color:#000;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+.car-slider-items .slick-prev:before{
+    position: absolute;
+    color: #000;
+    top: -15px;
+    right: 50px;
+}
+
+.car-slider-items .slick-next, .slick-prev{
+    top: 0 !important;
+}
+
+.car-slider-items .car-item{
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+
+span#premium{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #EC9005;
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-left: 20px;
+}
+
+.service-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-images .service-item{
+    width: 20%;
+    margin: 0 9px;
+    position: relative;
+}
+
+.service-images .service-item:first-child{
+    margin-left: 0;
+}
+
+.service-images .service-item:last-child{
+    margin-right: 0;
+}
+
+
+.service-images .service-item img{
+    /* min-width: 235px; */
+    height: 235px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.service-details{
+    display: none;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 80%;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    padding: 32px 12px;
+    transition: 0.5s;
+}
+
+.service-details h2{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #323A40;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.service-details p{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #6F7981;
+}
+
+.service-images .service-item:hover .service-details{
+    display: block;
+}
+.car-rent-section .rent-info-card{
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #fff;
+}
+
+.car-rent-section .car-rent-content .car-rent-div{
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.car-rent-section .rent-info-card .car-rent-div h2{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+
+button.car-rent-button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline-block;
+    border: 2px solid #F25D1C;
+    border-radius: 4px;
+    outline: none;
+    color: #F25D1C;
+    padding: 8px 18px;
+    background: transparent;
+}
+
+.more-item img{
+    width: auto !important;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.brand-item{
+    background: #fff;
+    padding: 15px 45px;
+    border-radius: 5px;
+    max-width: 190px;
+}
+
+.brand-item p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #515E6A;
+}
+
+.brand-list{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.article-item{
+    max-width: 100% !important;
+}
+
+footer{
+    background: #263A4A;
+    color: #fff;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;  
+}
+
+footer .footer-first-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .footer-first-section img{
+    border-radius: 4px;
+}
+
+footer .footer-first-section p, footer .footer-first-section a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0;
+    color: #fff;
+}
+
+footer .footer-first-section input[type="email"]{
+    display: inline-block;
+    width: 445px;
+    border-radius: 4px;
+    padding: 16px 15px;
+    border: none;
+    outline: none;
+}
+
+footer .footer-first-section button[type="submit"]{
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    width: 150px;
+    background: #F25D1C;
+    color: #fff;
+    border-radius: 4px;
+    padding: 20px 33px;
+    margin-left: 19px;
+}
+
+footer .footer-section-content{
+    padding: 0 60px;
+}
+
+footer .footer-second-section{
+    padding: 30px 60px;
+    background-color: #fff;
+    
+}
+
+footer .footer-second-section p{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #515E6A;
+    margin: 0;
+}
+.orange-color{
+    color: #F56526;
+    font-weight: bold;
+}
+
+.service-img-div{
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 991.5px){
+    header, section{
+        padding-left: 10px;
+        padding-right: 10px;  
+    } 
+
+    /* .sale-list-section .available-car-list .car-item{
+        max-width: 190px;
+    } */
+
+    .available-car-list .car-item{
+        margin: 2px;
+        margin-bottom: 25px;
+    }
+    
+    .available-car-list .car-item:last-child, .available-car-list .car-item:nth-child(5){
+        margin-right: 2px;
+    }
+
+    .service-images .service-item img{
+        min-width: 100%;
+        height: 100%;;
+    }
+
+    .brand-item{
+        padding: 15px 30px;
+        max-width: 130px;
+        margin-bottom: 15px;
+    }
+
+    footer .footer-section-content{
+        text-align: center;
+    }
+
+    footer .footer-section-content ul{
+        margin-top: 10px !important;
+    }
+
+    footer .footer-section-content ul>h2{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 909.5px){
+    header .header-first-div .header-contact-info{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 839.5px) and (min-width: 676.5px){
+    .car-rent-section .car-rent-content .car-rent-div{
+        padding: 0;
+    }
+
+    .car-rent-section .rent-info-card{
+        margin-bottom: 15px;
+    }
+
+    .car-rent-section .rent-info-card .car-rent-div h2{
+        font-size: 13px;
+    }
+
+    button.car-rent-button{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 767.5px){
+    footer .footer-section-content{
+        text-align: center;
+    }
+
+    footer .footer-section-content ul{
+        margin-top: 10px !important;
+    }
+
+    footer .footer-section-content ul>h2{
+        margin-bottom: 20px;
+    }
+
+    footer .footer-first-section input[type="email"], footer .footer-first-section button[type="submit"]{
+        width: unset;
+    }
+
+    .car-rent-section .rent-info-card{
+        margin-bottom: 10px;
+    }
+
+    .service-img-div img{
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 480.5px){
+    footer .footer-section-content{
+        padding: 0;
+    }
+
+    footer .footer-first-section input[type="email"]{
+        padding: 10px 8px;
+    }
+
+    footer .footer-first-section button[type="submit"]{
+        margin-left: 0;
+        padding: 14px 15px;
+    }
+
+    footer .footer-first-section img{
+        margin-bottom: 10px;
+    }
+
+    footer .footer-second-section{
+        padding: 10px;
+    }
+
+    footer .footer-second-section p{
+        font-size: 12px;
+    }
+
+    .car-rent-section .car-rent-content .car-rent-div{
+        padding: 0;
+    }
+
+    .car-rent-section .rent-info-card .car-rent-div h2{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .car-rent-section .rent-info-card{
+        padding: 10px;
+    }
+
+    button.car-rent-button{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .section-title{
+        font-size: 15px;
+    }
+
+    .sale-list-section .available-car-list .car-item{
+        max-width: 200px;
+    }
+
+    .more-car-section .car-item.more-item{
+        margin-bottom: 10px;
+    }
+
+    .car-sell-section .car-sell-content p{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .car-sell-section .car-sell-content h2{
+        font-size: 18px;
+    }
+
+    .car-sell-section .car-sell-content .contact-button-div button{
+        font-size: 12px;
+        padding: 8px 16px;  
+    }
+
+    .form-banner-section button.btn-outline-secondary{
+        width: 60px;
+    }
+
+    .form-banner-section input[type="text"], .form-banner-section input[type="number"], select{
+        width: 75%;
+    }
+
+    .slider-column-image.owl-carousel .owl-item img{
+        height: unset;
+    }
+
+    .header-media-icons .social-media-div img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+    .header-media-icons input#search-input{
+        min-width: unset;
+    }
+}
+
+@media only screen and (max-width: 585.5px) and (min-width:479.5px){
+    .form-banner-section input[type="text"], .form-banner-section input[type="number"], select{
+        width: 82%;
+    }
+
+    .form-banner-section button.btn-outline-secondary{
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 908px){
+    .header-top-div{
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 417.5px) and (min-width: 359.5px){
+
+    .car-sell-section .car-sell-content .contact-button-div button{
+        font-size: 8px;
+        padding: 8px 16px;
+    }
+
+    .car-sell-section .car-sell-content p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .car-sell-section .car-sell-content h2 {
+        font-size: 12px;
+    }
+
+    .first-section .section-first-div{
+        padding: 10px;
+    }
+
+    .custom-width{
+        width: 37.5% !important;
+    }
+
+    .header-media-icons .social-media-div img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+    .header-media-icons input#search-input{
+        min-width: unset;
+    }
+}
+
+@media only screen and (max-width: 944px){
+    /* .header-second-div{
+        display: block;
+        text-align: center;
+    } */
+}
